@@ -23,6 +23,13 @@ const options = [
     }
   },
   {
+    title: "info",
+    handler: () => {
+      const info = imagekit.info(sample);
+      quicklook.json(info);
+    }
+  },
+  {
     title: "grayscale",
     handler: () => {
       open(imagekit.grayscale(sample));
