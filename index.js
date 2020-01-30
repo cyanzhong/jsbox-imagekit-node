@@ -209,6 +209,12 @@ const options = [
     }
   },
   {
+    title: "circular",
+    handler: () => {
+      open(imagekit.circular(sample));
+    }
+  },
+  {
     title: "original GIF",
     handler: () => {
       open(gif)
