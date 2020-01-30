@@ -86,7 +86,7 @@ const options = [
   {
     title: "blur",
     handler: () => {
-      open(imagekit.blur(sample, 0));
+      open(imagekit.blur(sample, 10));
     }
   },
   {
